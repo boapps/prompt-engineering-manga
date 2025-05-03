@@ -8,11 +8,15 @@ Feladat címe: képregény fordító alkalmazás VLM-mel
 
 Beadó neve: \[redacted\]
 
+## Megjegyzés
+
+Ez a megoldás jelentős mértékben hagyatkozik azokra a megállapításokra, amit [Lippmann et al.](https://arxiv.org/pdf/2411.02589) bemutat, viszont forráskódot nem kölcsönöz.
+
 ## Megoldás
 
 Ez a házi feladat képregények automatizált fordításával foglalkozik, amihez megpróbáltam kihasználni új vizuális képességekkel rendelkező nagy nyelvi modellek (VLM) képességeit. Az elsődleges fókusz az volt, hogy az egyes oldalak fordítása során, hogyan lehet hatékonyan továbbvinni (görgetni) a kontextust.
 
-A megfelelő módszer megtalálásához egy egyszerű benchmark környezetet is összeállítottam, ami egy japán képregényekből (manga) álló korpuszon kiértékeli a fordítási módszert. A korpusz az [open mantra dataset](https://github.com/mantra-inc/open-mantra-dataset) volt, amit [Ryota et al.](https://arxiv.org/abs/2012.14271) mutatott be és ami a mangák eredeti japán szövege mellett oldalanként tartalmazza azok angol fordítását. A kiértékeléshez figyelembe vettem a fordítás bleu pontszáma mellett a (javított) google bleu, rouge és az összetettebb meteor értékeket is.
+A megfelelő módszer megtalálásához egy egyszerű benchmark környezetet is összeállítottam, ami egy japán képregényekből (manga) álló korpuszon kiértékeli a fordítási módszert. A korpusz az [open mantra dataset](https://github.com/mantra-inc/open-mantra-dataset) volt, amit [Hinami et al., 2021](https://arxiv.org/abs/2012.14271) mutatott be és ami a mangák eredeti japán szövege mellett oldalanként tartalmazza azok angol fordítását. A kiértékeléshez figyelembe vettem a fordítás bleu pontszáma mellett a (javított) google bleu, rouge és az összetettebb meteor értékeket is.
 
 Miután végeztem a fordítások kiértékelésével, implementáltam azokat a [manga-image-translator](https://github.com/zyddnys/manga-image-translator) projekt-hez, ami egy klasszikus OCR alapú teljesen automatizált manga fordítást valósít meg. Az eddigi kísérleteim alapján a nyílt súlyú VLM-ek nem képesek elég pontos bounding box-okat megadni szöveg felismeréskor, ezért fontos, hogy az eredeti detekció klasszikus módszerekkel történjen. Habár a projekt támogatja nagy nyelvi modellek (LLM) használatát a fordítási lépéshez, az a korábbi lapok kontextusa és vizuális jellegek figyelembe vétele nélkül történik, ezért az én módszerem javít a pontosságon.
 

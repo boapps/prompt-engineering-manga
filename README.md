@@ -34,4 +34,10 @@ Miután végeztem a fordítások kiértékelésével, implementáltam azokat a [
 
 Forráskód [ebben a repo-ban](https://github.com/boapps/prompt-engineering-manga).
 
+Kiértékelési eredmények:
+
+![összes metrika egyben: szinte minden metrika tekintetében a DescriptionImageTranslator nyer](assets/all_metrics_comparison.png)
+
+![metrikánként a fordítók összehasonlítása](assets/translation_metrics_comparison.png)
+
 ## Limitációk

@@ -34,6 +34,21 @@ Miután végeztem a fordítások kiértékelésével, implementáltam azokat a [
 
 Forráskód [ebben a repo-ban](https://github.com/boapps/prompt-engineering-manga).
 
+Módosított manga-image-translator forráskódja: [itt](https://github.com/boapps/manga-image-translator)
+
+Felhasznált promptok:
+
+```python
+system_prompt="You are a professional manga translator and image captioner."
+prefix_prompt="Your job is to translate the following text to English. I will show you the full text beforehand, but we will translate it line by line. You will have to reply only with the translated line.\nJapanese manga text:\n"
+image_prompt="First just give a short (1-2 paragraph) description of only the visual scene. Focus on the characters and the background. Don't write anything else."
+new_summary_prompt="Now give a short (1-2 paragraph) but precise summary of the story so far based on the image and text."
+summary_prompt = (
+            ("Summary of the story so far:\n" + self.summary + "\n") if self.summary else ""
+)
+prompt = f"{summary_prompt}{self.prefix_prompt}{numbered_text}\nAre you ready?"
+```
+
 Kiértékelési eredmények:
 
 ![összes metrika egyben: szinte minden metrika tekintetében a DescriptionImageTranslator nyer](assets/all_metrics_comparison.png)

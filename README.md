@@ -2,7 +2,7 @@
 
 ## Adatok
 
-Feladat azonosítója: Saját téma
+Feladat azonosítója: Saját téma (38)
 
 Feladat címe: képregény fordító alkalmazás VLM-mel
 

@@ -55,4 +55,31 @@ Kiértékelési eredmények:
 
 ![metrikánként a fordítók összehasonlítása](assets/translation_metrics_comparison.png)
 
+### Példák
+
+A bal oldali kép a professzionális fordítás és a jobb oldali az automatizált. A mangákat fentről lefele, balról jobbra kell olvasni.
+
+### Hourou Musuko
+
+TODO
+
+### Stop!! Hibari-kun!
+
+TODO
+
 ## Limitációk
+
+A fordítás pontosságán kívül vannak limitációi ennek a fajta automatizált fordításnak, amik a folyamat jellegéből adódnak. 
+
+Fordításkor bizonyos finom nyelvi jellegzetességek elveszhetnek, ezeket professzionális fordító a panelek körül egy kis megjegyzésben jelezheti. Ennek automatizálása bonyolult lenne. 
+
+TODO
+
+Forrás: Fukakai na Boku no Subete o
+
+Egy igazán jó fordítás a tipográfiai játékot is át tudja hozni. Automatizáláskor viszont csak az eredeti boundingboxba próbáljuk beleszuszakolni a fordított szöveget.
+
+TODO
+
+Forrás: Hourou Musuko
+

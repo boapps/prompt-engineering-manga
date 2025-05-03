@@ -1,0 +1,44 @@
+{
+    "NaiveTranslator": {
+        "google_bleu": 7.658933889253679,
+        "bleu": 1.3339866426843303,
+        "meteor": 5.603845404451071,
+        "rouge": 0.018648018648018648
+    },
+    "SimpleTranslator": {
+        "google_bleu": 14.580764362576977,
+        "bleu": 6.359059139021502,
+        "meteor": 23.64939588269806,
+        "rouge": 23.432888184054462
+    },
+    "DescriptionImageTranslator": {
+        "google_bleu": 20.297209954923414,
+        "bleu": 12.86187341172202,
+        "meteor": 30.62683344812998,
+        "rouge": 30.653158908229074
+    },
+    "SimpleTranslator-gemma3:12b": {
+        "google_bleu": 19.160333133868697,
+        "bleu": 12.234217585143343,
+        "meteor": 28.753061495517255,
+        "rouge": 30.153458307706945
+    },
+    "SimpleImageTranslator": {
+        "google_bleu": 19.23877506653973,
+        "bleu": 11.9819776571392,
+        "meteor": 28.184506848646784,
+        "rouge": 29.193423154956093
+    },
+    "SimpleImageTranslator-prompt": {
+        "google_bleu": 20.021066388700223,
+        "bleu": 12.912110297263348,
+        "meteor": 29.63592008947386,
+        "rouge": 29.623660695832882
+    },
+    "SimpleFewShotTranslator-gemma3:12b": {
+        "google_bleu": 20.15861965389782,
+        "bleu": 12.554057771144489,
+        "meteor": 28.908331317900167,
+        "rouge": 29.862272981491152
+    }
+}

@@ -32,5 +32,6 @@ Miután végeztem a fordítások kiértékelésével, implementáltam azokat a [
 
 ## Promptok & Eredmények
 
+Forráskód [ebben a repo-ban](https://github.com/boapps/prompt-engineering-manga).
 
 ## Limitációk

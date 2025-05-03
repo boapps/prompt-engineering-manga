@@ -57,7 +57,7 @@ Kiértékelési eredmények:
 
 ### Példák
 
-A bal oldali kép a professzionális fordítás és a jobb oldali az automatizált. A mangákat fentről lefele, balról jobbra kell olvasni.
+A bal oldali kép a professzionális fordítás és a jobb oldali az automatizált. A mangákat fentről lefele, jobbról balra kell olvasni.
 
 A példák fordításához a Gemma 3 12B modellt használtam lokális környezetben.
 

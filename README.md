@@ -59,6 +59,8 @@ Kiértékelési eredmények:
 
 A bal oldali kép a professzionális fordítás és a jobb oldali az automatizált. A mangákat fentről lefele, balról jobbra kell olvasni.
 
+A példák fordításához a Gemma 3 12B modellt használtam lokális környezetben.
+
 ### Hourou Musuko
 
 ![Girl cooking and a woman complimenting her](assets/cooking.jpg)

@@ -61,11 +61,15 @@ A bal oldali kép a professzionális fordítás és a jobb oldali az automatizá
 
 ### Hourou Musuko
 
-TODO
+![Girl cooking and a woman complimenting her](assets/cooking.jpg)
+
+![Girl working hard on her first day for a job](assets/job.jpg)
+
+![Guy asking two friends whether they are sons of a yakuza or something](assets/yakuza_son.jpg)
 
 ### Stop!! Hibari-kun!
 
-TODO
+![Girl practicing to be a dealer](assets/dealer.jpg)
 
 ## Limitációk
 
@@ -73,13 +77,13 @@ A fordítás pontosságán kívül vannak limitációi ennek a fajta automatizá
 
 Fordításkor bizonyos finom nyelvi jellegzetességek elveszhetnek, ezeket professzionális fordító a panelek körül egy kis megjegyzésben jelezheti. Ennek automatizálása bonyolult lenne. 
 
-TODO
+![](assets/tl_note.png)
 
 Forrás: Fukakai na Boku no Subete o
 
 Egy igazán jó fordítás a tipográfiai játékot is át tudja hozni. Automatizáláskor viszont csak az eredeti boundingboxba próbáljuk beleszuszakolni a fordított szöveget.
 
-TODO
+![](assets/compare_manga_typography.png)
 
 Forrás: Hourou Musuko
 
